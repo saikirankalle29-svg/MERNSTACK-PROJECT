@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://mernstack-project-6gel.onrender.com/api',
   headers: {
     'Content-Type': 'application/json'
   }
